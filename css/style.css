@@ -1,3 +1,36 @@
+html{
+    background: url(https://s27389.pcdn.co/wp-content/uploads/2017/04/AdobeStock_100000042-2-1024x576.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}
 body{
-    background-image: url(https://s27389.pcdn.co/wp-content/uploads/2017/04/AdobeStock_100000042-2-1024x576.jpeg);
+    text-align: center;
+    align-content: center;
+    margin: 2.5cm;
+    width: 90%;
+    padding: 10px;
 } 
+.submit-button{
+    height: 33px;
+    width: 133px;
+    border-radius: 10px;
+    background-color: lightslategray;
+    text-decoration-color: black;
+    display: inline-block;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+    color: azure
+}
+h2{
+    font-size: 25px;
+    color: azure;
+}
+label{
+    font-size: 15px;
+    color: azure;
+}
