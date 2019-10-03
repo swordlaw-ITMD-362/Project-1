@@ -1,44 +1,86 @@
-html{
-    background: url(https://s27389.pcdn.co/wp-content/uploads/2017/04/AdobeStock_100000042-2-1024x576.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+@media only screen and(max-width: 700px){
+    html{
+        background: url(https://s27389.pcdn.co/wp-content/uploads/2017/04/AdobeStock_100000042-2-1024x576.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    body{
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        align-content: center;
+        margin: 2.5cm;
+        width: 90%;
+        padding: 10px;
+    } 
+    input {
+        display: inline-block;
+        width: 350px;
+        padding: 10px 10px;
+        margin: 15px 0;
+        border-radius: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .submit-button{
+        height: 33px;
+        width: 133px;
+        border-radius: 10px;
+        background-color: lightslategray;
+        text-decoration-color: black;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 50px;
+        color: azure
+    }   
+    h2{
+        font-size: 25px;
+        color: azure;
+    }
+    label{
+        font-size: 15px;
+        color: azure;
+    }
 }
-body{
-    font-family: orbitron, sans-serif;
-    text-align: center;
-    align-content: center;
-    margin: 2.5cm;
-    width: 90%;
-    padding: 10px;
-} 
-input {
-    display: inline-block;
-    width: 350px;
-    padding: 10px 10px;
-    margin: 15px 0;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-.submit-button{
-    height: 33px;
-    width: 133px;
-    border-radius: 10px;
-    background-color: lightslategray;
-    text-decoration-color: black;
-    display: inline-block;
-    font-size: 20px;
-}
-h1{
-    font-size: 50px;
-    color: azure
-}
-h2{
-    font-size: 25px;
-    color: azure;
-}
-label{
-    font-size: 15px;
-    color: azure;
+@media only screen and (min-width: 700px){
+    html{
+        background: url(https://s27389.pcdn.co/wp-content/uploads/2017/04/AdobeStock_100000042-2-1024x576.jpeg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    body{
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        align-content: center;
+        margin: 2.5cm;
+        width: 90%;
+        padding: 10px;
+    } 
+    input{
+        width: 85%;
+        padding: 10px 20px;
+        margin: 15px 0;
+        display: inline-block;
+        border-radius: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    h1{
+        font-size: 50px;
+        color: azure
+    }   
+    h2{
+        font-size: 25px;
+        color: azure;
+    }
+    label{
+        font-size: 15px;
+        color: azure;
+    }
 }
