@@ -27,11 +27,12 @@
         height: 33px;
         width: 133px;
         border-radius: 10px;
-        background-color: lightslategray;
+        background-color: slategray;
         text-decoration-color: black;
         text-align: center;
         display: inline-block;
         font-size: 20px;
+        font-family: 'Orbitron', sans-serif;
     }
     h1{
         font-size: 50px;
