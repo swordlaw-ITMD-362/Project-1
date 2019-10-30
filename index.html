@@ -5,22 +5,22 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
   <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
-  <script src="script.js"></script>
+  <script src="js/script.js" async></script>
   <title>ITM Study Group</title>
 </head>
 <body>
-        <h1>ITM Study Group Sign Up!</h1>
-        <h2>Enter your information below:</h2>
-        <form onsubmit="validate()">
-          <label for="name">Name: </label><br>
-            <input id="name" name="name" placeholder="Enter Full Name Here"><br>
-          <label for="email">Email Address: </label><br>
-            <input id="email" name="email" placeholder="Enter Email Here"><br>
-          <label for="tel">Phone Number: </label><br>
-            <input id="tel" name="phone" placeholder="xxx-xxx-xxxx"><br>
-          <label for="polyfill">Date of Birth</label><br>
-            <input id="polyfill" name="birthday" placeholder="mm/dd/yyyy"><br>
-          <input type="submit" value="Submit" class="submit-button"><br>
-        </form>
-    </body>  
-    </html>
+  <h1>ITM Study Group Sign Up!</h1>
+  <h2>Enter your information below:</h2>
+  <form onsubmit="validate()" method="get" action="#null" autocomplete=”on”>
+    <label for="name">Name: </label><br>
+    <input id="name" name="name" placeholder="Enter Full Name Here"><br>
+    <label for="email">Email Address: </label><br>
+    <input id="email" name="email" placeholder="Enter Email Here"><br>
+    <label for="tel">Phone Number: </label><br>
+    <input id="tel" name="phone" placeholder="xxx-xxx-xxxx"><br>
+    <label for="polyfill">Date of Birth</label><br>
+    <input id="polyfill" name="birthday" placeholder="mm/dd/yyyy"><br>
+    <input type="submit" value="Submit" class="submit-button"><br>
+  </form>
+</body>  
+</html>
