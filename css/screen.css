@@ -75,8 +75,9 @@ label{
         background-color: slategray;
         text-decoration-color: black;
         text-align: center;
+        padding: 10px 20px;
         display: inline-block;
-        font-size: 20px;
+        font-size: 17px;
         font-family: 'Orbitron', sans-serif;
     }
     h1{
